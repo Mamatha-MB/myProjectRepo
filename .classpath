@@ -34,5 +34,6 @@
 			<attribute name="maven.scope" value="compile"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/mamat/Downloads/eclipse-java-2019-06-R-win32-x86_64/eclipse/plugins/org.testng_7.0.0.r201908191551.jar" sourcepath="C:/Users/mamat/Downloads/eclipse-java-2019-06-R-win32-x86_64/eclipse/plugins/org.testng.source_7.0.0.r201908191551.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

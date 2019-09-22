@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import checkFrames.toolsQAFrames;
 import utilities.ExcelUtils;
 
-@Listeners (testFrames.ListenerClass.class)
+@Listeners (utilities.ListenerClass.class)
 public class NewTest extends testUtils {
 
 	
