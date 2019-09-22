@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-09-19T22:33:14 IST" name="Suite" finished-at="2019-09-19T22:33:24 IST" duration-ms="9258">
+    <groups>
+    </groups>
+    <test started-at="2019-09-19T22:33:14 IST" name="Test" finished-at="2019-09-19T22:33:24 IST" duration-ms="9258">
+      <class name="testFrames.NewTest">
+        <test-method is-config="true" signature="setDriver()[pri:0, instance:testFrames.NewTest@595b007d]" started-at="2019-09-19T22:33:09 IST" name="setDriver" finished-at="2019-09-19T22:33:14 IST" duration-ms="5272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method signature="readData(java.lang.String, java.lang.String)[pri:0, instance:testFrames.NewTest@595b007d]" started-at="2019-09-19T22:33:15 IST" name="readData" data-provider="readDataInDP" finished-at="2019-09-19T22:33:15 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readData -->
+        <test-method signature="readData(java.lang.String, java.lang.String)[pri:0, instance:testFrames.NewTest@595b007d]" started-at="2019-09-19T22:33:22 IST" name="readData" data-provider="readDataInDP" finished-at="2019-09-19T22:33:22 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mamatha.MB]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mb@285644]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readData -->
+        <test-method signature="testFrames()[pri:1, instance:testFrames.NewTest@595b007d]" started-at="2019-09-19T22:33:23 IST" name="testFrames" finished-at="2019-09-19T22:33:23 IST" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFrames -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:testFrames.NewTest@595b007d]" started-at="2019-09-19T22:33:24 IST" name="closeDriver" finished-at="2019-09-19T22:33:28 IST" duration-ms="4141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- testFrames.NewTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
