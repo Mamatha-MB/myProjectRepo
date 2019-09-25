@@ -5,6 +5,7 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import checkFrames.toolsQAFrames;
 import utilities.ExcelUtils;
+import org.testng.Assert;
 
 @Listeners (utilities.ListenerClass.class)
 public class NewTest extends testUtils {
@@ -14,6 +15,7 @@ public class NewTest extends testUtils {
 	public void testFrames() {
 		toolsQAFrames tqa = new toolsQAFrames(driver);
 		tqa.getTitileQA();
+		Assert.assertEquals("IFrame", tqa.getTitileQA());
 		System.out.println("total number of frames  "+tqa.getCountFrames());
 		tqa.switchToFrames();
 		}
