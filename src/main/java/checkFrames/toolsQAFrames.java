@@ -33,6 +33,7 @@ public class toolsQAFrames extends pageUtils {
 		return webList.size();
 	}
 	
+	
 	public void switchToFrames() {
 		driver.switchTo().frame(0);
 		//PageCommonFunctions.wait.until(ExpectedConditions.stalenessOf(menu));
@@ -41,7 +42,7 @@ public class toolsQAFrames extends pageUtils {
 		System.out.println("Todays Date: "+LocalDate.now());
 		
 		try {
-			PageCommonFunctions.wait.until(ExpectedConditions.elementToBeClickable(frameMenu));
+			PageCommonFunctions.fwait.until(ExpectedConditions.elementToBeClickable(frameMenu));
 			PageCommonFunctions.clickElement(frameMenu);
 		}
 		catch(Exception e) {

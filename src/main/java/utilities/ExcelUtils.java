@@ -35,9 +35,8 @@ public class ExcelUtils {
 		int startRow = 0;
 		int startCol = 0;
 		int ci, cj;
-		int totalRows = sheet.getLastRowNum()+1;
-		System.out.println("Total number of rows "+totalRows);
-		int totalCols = 2;
+		int totalRows = getRowNum();
+		int totalCols = getColumnNum();
 		cellDataObj = new String[totalRows][totalCols];
 		ci = 0;
 		for (int i = startRow; i < totalRows; i++, ci++) {
@@ -56,5 +55,14 @@ public class ExcelUtils {
 		String cellData = cell.getStringCellValue();
 		return cellData;
 	}
-	
+
+	public int getRowNum() {
+		return (sheet.getLastRowNum() + 1);
+	}
+
+	public int getColumnNum() {
+		row=sheet.getRow(0);
+		return row.getLastCellNum();
+	}
+
 }
