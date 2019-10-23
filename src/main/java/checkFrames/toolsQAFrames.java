@@ -42,7 +42,7 @@ public class toolsQAFrames extends pageUtils {
 		System.out.println("Todays Date: "+LocalDate.now());
 		
 		try {
-			PageCommonFunctions.fwait.until(ExpectedConditions.elementToBeClickable(frameMenu));
+			PageCommonFunctions.wait.until(ExpectedConditions.elementToBeClickable(frameMenu));
 			PageCommonFunctions.clickElement(frameMenu);
 		}
 		catch(Exception e) {
